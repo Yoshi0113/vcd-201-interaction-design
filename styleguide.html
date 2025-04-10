@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+	
+	<link rel="icon" href="assets/graphics/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/graphics/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" href="assets/graphics/apple-icon.png">
+	<link rel="icon" sizes="16x16" href="assets/graphics/favicon-16x16.png">
+	<link rel="icon" sizes="32x32" href="assets/graphics/favicon-32x32.png">
+	<link rel="icon" sizes="192x192" href="assets/graphics/favicon-192x192.png">
+	<link rel="icon" sizes="512x512" href="assets/graphics/favicon-512x512.png">
+	
+	
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="style-guide-page">
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="landing.html" class="logo-link">
+                        <span class="logo-left">vcd<br>201</span>
+                        <div class="logo-right">
+                            <span class="medium-text">INTERACTION DESIGN</span>
+                            <span class="small-text">Joshua Anthony - 8644433</span>
+                        </div>
+                    </a>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links">
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="styleguide.html">Style Guide</a></li>
+                    <li><a href="designprocess.html">Design Process</a></li>
+                    <li><a href="analysis.html">Analysis</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+			<section class="top-box">
+                <h1>Style Guide</h1>
+                <p style="color: white;">This page outlines the design system for the website, including logo, colors, typography, and layout specifications.</p>
+            </section>
+
+            <!-- Logo Section -->
+            <section class="style-guide-section">
+                <h2>Logo</h2>
+                <p>The logo represents the interaction design course, with a modern and bold look. The logo's color is #00C896, which matches the accent color throughout the website.</p>
+                <div class="logo-specs">
+                    <img src="assets/images/logo.png" alt="Main Logo" class="style-guide-image">
+                    <p><strong>Logo Color:</strong> #00C896 (Teal)</p>
+                    <p><strong>Font:</strong> 'D-DIN Bold', sans-serif</p>
+                    <p><strong>Spacing:</strong> 10px padding around the logo</p>
+                </div>
+            </section>
+
+            <!-- Favicon Section -->
+            <section class="style-guide-section">
+                <h2>Favicon</h2>
+                <p>The favicon matches the primary color of the website to maintain consistency in branding.</p>
+                <div class="favicon-specs">
+                    <img src="assets/images/favicon.ico" alt="Favicon" class="style-guide-image">
+                    <p><strong>Favicon Color:</strong> #00C896</p>
+                </div>
+            </section>
+
+            <!-- Color Palette Section -->
+            <section class="style-guide-section">
+                <h2>Color Palette</h2>
+                <p>The primary colors for the website are designed to create a clean, modern, and professional look. Here are the main colors used throughout the site:</p>
+                <div class="color-palette">
+                    <div class="color-swatch" style="background-color: #00C896;"></div>
+                    <p><strong>#00C896</strong> - Teal (Accent color)</p>
+
+                    <div class="color-swatch" style="background-color: #4B3F72;"></div>
+                    <p><strong>#4B3F72</strong> - Purple (Primary background color)</p>
+
+                    <div class="color-swatch" style="background-color: #DEDEDE;"></div>
+                    <p><strong>#DEDEDE</strong> - Light Gray (Secondary background color)</p>
+
+                    <div class="color-swatch" style="background-color: #F4F4F4;"></div>
+                    <p><strong>#F4F4F4</strong> - Light background color for sections</p>
+                </div>
+            </section>
+
+            <!-- Typography Section -->
+            <section class="style-guide-section">
+                <h2>Typography</h2>
+                <p>The website uses a combination of bold and clean fonts for readability and a modern look. Here is the breakdown of the fonts used:</p>
+                <div class="typography-specs">
+                    <p><strong>Primary Font:</strong> Arial, sans-serif</p>
+                    <p><strong>Header Font:</strong> 'Arial Black', sans-serif (for h1, bold and uppercase)</p>
+                    <p><strong>Secondary Font:</strong> 'D-DIN Condensed', sans-serif (used for subheadings and logo)</p>
+
+                    <p><strong>Headings:</strong></p>
+                    <p><code>h1</code> - Font Size: 48px, Color: White, Font Weight: Bold, Uppercase</p>
+					
+					<!-- Example of h1 -->
+        			<h1>This is a Heading 1 Example</h1>
+					
+                    <p><code>h2</code> - Font Size: 28px, Color: White, Font Weight: Bold</p>
+					
+					<!-- Example of h2 -->
+        			<h2>This is a Heading 2 Example</h2>
+					
+                    <p><strong>Body Text:</strong></p>
+                    <p><code>p</code> - Font Size: 16px, Color: #2E2E2E</p>
+					
+					<!-- Example of Paragraph -->
+        			<p>This is a sample paragraph demonstrating the body text. The font size is 16px, and the color is #2E2E2E. This ensures good readability and a clean design for the content across the site.</p>
+
+					<p><strong>Links:</strong></p>
+					<p><code>a</code> - Font Size: 16px, Color: #66B032, Hover Color: #4B3F72</p>
+        
+					<!-- Example of Link -->
+					<a href="#">This is a link example</a>
+					
+					<p><strong>Other Text Elements:</strong></p>
+					<p><code>small</code> - Font Size: 12px, Color: #999999 (for small print)</p>
+
+					<!-- Example of small text -->
+					<small>This is a small text example. It's typically used for disclaimers or fine print.</small>
+					
+                </div>
+            </section>
+
+            <!-- Layout Section -->
+            <section class="style-guide-section">
+                <h2>Layout</h2>
+                <p>The website layout utilizes a clean, responsive grid system to ensure optimal viewing on various devices. The content is primarily divided into two main sections: header and footer with flexbox for layout control.</p>
+                <div class="layout-specs">
+                    <p><strong>Navigation:</strong> Flexbox layout with a responsive hamburger menu for smaller screens.</p>
+                    <p><strong>Sections:</strong> Main content is divided into sections with flexible widths using <code>flex</code> and <code>box-sizing: border-box</code> for consistency.</p>
+                    <p><strong>Footer:</strong> Simple centered footer with background color #4B3F72.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Joshua Anthony</p>
+        </footer>
+    </div>
+
+    <script src="assets/scripts/hamburger_script.js"></script>
+</body>
+
+</html>
